@@ -1,0 +1,87 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-image: url("immagini/background.jpg");
+  background-size: cover;
+  font-family: 'Poppins';
+
+}
+
+
+/* DARK BOX */
+.contenitore{
+margin:auto;
+margin-top:30px;
+width:1200px;
+height:800px;
+background-color:black;
+border-radius:25px;
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Contenitore logo */
+header{
+text-align:center;
+padding-top:105px;
+}
+
+/* Logo  */
+header > img{
+  width: 250px;
+}
+
+/* claim*/
+header > h2{
+margin-top:5px;
+margin-bottom: 15px;
+color:rgba(0, 221 ,0, 1)
+
+}
+
+/* Barra centrale prenotazione */
+nav{
+  width:940px;
+  height:40px;
+  margin:auto;
+  background-color: rgba(0, 221 ,0, 1);
+  text-align: center;
+  padding-top:5px;
+}
+
+/* MAGAZZINO */
+main{
+  width:940px;
+  margin:auto;
+  color:white;
+
+}
+
+main > span {
+  display: block;
+  line-height: 20px;
+}
+
+/* Barra batteria */
+main > div{
+  height:30px;
+  border-radius:5px;
+
+
+}
+/* TAG STATO BATTERIE */
+main > div.scarico{
+  width:150px;
+  background-color:red;
+}
+
+main > div.carico{
+  width:450px;
+  background-color:green;
+}
+
+main > div.medio{
+  width:300px;
+  background-color: yellow;
+}
